@@ -1,0 +1,26 @@
+[admiral]
+items = ["left", "cur_wksp", "workspaces",
+         "right", "clock"]
+
+[workspaces]
+path = "./bspwm_workspaces.sh"
+
+[cur_wksp]
+path = "./cur_wksp_main"
+
+[clock]
+path = "./time "
+reload = 1
+
+# Used for formatting lemonbar
+[left]
+path = "echo '%{l}'"
+static = true
+
+[center]
+path = "echo '%{c}'"
+static = true
+
+[right]
+path = "echo '%{r}'"
+static = true

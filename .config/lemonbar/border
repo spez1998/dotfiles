@@ -1,0 +1,3 @@
+#!/bin/bash
+
+lemonbar -g 3420x26+10+15 -B '#817f7f' -a 21

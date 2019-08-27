@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#echo -e -n "%{F#928374}\ue0b2%{B#928374}%{F#32302f} $(date '+%a %-dth %h %Y') %{F-}\ue0b2%{B-}%{R} $(date '+%H:%m') %{R}"
+echo -e -n "%{F#928374}\ue0b2%{B#928374}%{F#32302f} $(date '+%a %-dth %h %Y') %{F-}\ue0b2%{B-}%{R} $(date '+%-H:%M') %{R}"

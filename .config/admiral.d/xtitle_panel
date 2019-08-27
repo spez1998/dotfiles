@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo -e -n "%{R}xtitle -s -t 100%{R}b0"

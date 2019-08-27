@@ -1,0 +1,21 @@
+[admiral]
+items = ["left", "cur_wksp", "right", "clock"]
+
+[cur_wksp]
+path = "./cur_wksp_xtitle"
+
+#[xtitle]
+#path = "./xtitle_panel"
+
+[clock]
+path = "./time "
+reload = 1
+
+# Formatting
+[left]
+path = "echo '%{l}'"
+static = true
+
+[right]
+path = "echo '%{r}'"
+static = true
