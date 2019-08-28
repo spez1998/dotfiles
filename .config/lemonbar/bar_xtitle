@@ -1,3 +1,4 @@
 #!/bin/bash
 
-(admiral -c /home/sujit/.config/admiral.d/admiral_xtitle.toml & echo $! >&3) 3>~/.config/admiral.d/pid/admiral_xtitle_pid | (lemonbar -B '#32302f' -F '#ebdbb2' -g 3420x22+10+17 -f -misc-tamzenforpowerline-medium-r-normal--20-145-100-100-c-100-iso8859-1 -f -misc-tamzenforpowerline-bold-r-normal--20-145-100-100-c-100-iso8859-1 -n xtitle_bar & echo $! >&3) 3>~/.config/admiral.d/pid/bar_xtitle_pid | sh
+(admiral -c /home/sujit/.config/admiral.d/admiral_xtitle.toml & echo $! >&3) 3>~/.config/admiral.d/pid/admiral_xtitle_pid | lemonbar -F '#ebdbb2' -g x22+10+17 -f -misc-tamzenforpowerline-medium-r-normal--20-145-100-100-c-100-iso8859-1 -f -misc-tamzenforpowerline-bold-r-normal--20-145-100-100-c-100-iso8859-1 | sh
+#-B '#32302f' 

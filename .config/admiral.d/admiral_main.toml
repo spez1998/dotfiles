@@ -1,11 +1,10 @@
 [admiral]
-items = ["left", "cur_wksp", "workspaces",
-         "right", "clock"]
+items = ["left", "cur_wksp_main", "workspaces"]
 
 [workspaces]
 path = "./bspwm_workspaces.sh"
 
-[cur_wksp]
+[cur_wksp_main]
 path = "./cur_wksp_main"
 
 [clock]
