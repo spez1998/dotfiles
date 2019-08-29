@@ -1,5 +1,5 @@
 [admiral]
-items = ["left", "cur_wksp_main", "workspaces"]
+items = ["left", "clock", "cur_wksp_main", "workspaces"]
 
 [workspaces]
 path = "./bspwm_workspaces.sh"
@@ -8,7 +8,7 @@ path = "./bspwm_workspaces.sh"
 path = "./cur_wksp_main"
 
 [clock]
-path = "./time "
+path = "./timedate"
 reload = 1
 
 # Used for formatting lemonbar

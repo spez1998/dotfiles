@@ -6,7 +6,7 @@ if ! type bspc &> /dev/null; then
 fi
 
 while read -r line; do 
-	echo -n "%{F#32302f}"
+	echo -n "%{B#928374}%{F#32302f}"
 	case $line in
 		W*)
 			IFS=':'
