@@ -1,4 +1,4 @@
 #!/bin/bash
 
-admiral -c /home/sujit/.config/admiral.d/admiral_main.toml | lemonbar -g 1920x22 -f -misc-tamzenforpowerline-medium-r-normal--20-145-100-100-c-100-iso8859-1 -f -misc-tamzenforpowerline-bold-r-normal--20-145-100-100-c-100-iso8859-1 -F '#ebdbb2' -a 21 -p | sh &
+admiral -c /home/sujit/.config/admiral.d/admiral_main.toml | lemonbar -g 1920x20 -f -misc-tamzenforpowerline-medium-r-normal--20-145-100-100-c-100-iso8859-1 -f -misc-tamzenforpowerline-bold-r-normal--20-145-100-100-c-100-iso8859-1 -F '#ebdbb2' -a 21 -p | sh &
 #-B '#32302f' 3420+10+17
