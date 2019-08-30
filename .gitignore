@@ -10,7 +10,6 @@
 .config/Qlipper/
 .config/Trolltech.conf
 .config/admiral.d/pid/
-.config/admiral.d/timedate
 .config/dconf/
 .config/enchant/
 .config/fontconfig/

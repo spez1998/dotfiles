@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo -e -n "%{B#8ec07c}%{F#32302f} $(date '+%-H:%M') %{R}%{B#ebdbb2}\ue0b0%{B-}%{F-}"
