@@ -51,7 +51,6 @@
 .tooling/
 .vim/
 .viminfo
-.xinitrc
 .xsession-errors
 .zcompdump
 .zcompdump-sujit-vbox-5.5.1
