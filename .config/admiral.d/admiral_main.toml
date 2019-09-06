@@ -1,5 +1,5 @@
 [admiral]
-items = ["left", "clock", "cur_wksp_main", "workspaces"]
+items = ["left", "clock", "sep", "cur_wksp_main","sep", "workspaces"]
 
 [workspaces]
 path = "./bspwm_workspaces.sh"
@@ -22,4 +22,8 @@ static = true
 
 [right]
 path = "echo '%{r}'"
+static = true
+
+[sep]
+path = "echo '{sep}'"
 static = true
