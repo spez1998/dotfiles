@@ -6,7 +6,6 @@ if ! type bspc &> /dev/null; then
 fi
 
 while read -r line; do 
-	echo -n "%{B#928374}%{F#32302f}"
 	case $line in
 		W*)
 			IFS=':'
@@ -37,6 +36,6 @@ while read -r line; do
 				shift
 			done
 	esac
-	echo -n -e "%{F#928374}%{B-}\ue0b0%{F-}"
+	echo -e -n "\ue0b0"
 	echo
 done < <(bspc subscribe report)

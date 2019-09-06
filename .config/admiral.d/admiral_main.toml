@@ -1,5 +1,8 @@
 [admiral]
-items = ["left", "clock", "sep", "cur_wksp_main","sep", "workspaces"]
+items = ["left",
+	"color_reverse", "bgcolor_x_cyan", "clock", "bgcolor_base", "fgcolor_base",
+	"color_reverse", "font_bold", "cur_wksp_main", "font_normal",
+	"bg_color_darkgrey", "workspaces", "bgcolor_base", "fgcolor_base"]
 
 [workspaces]
 path = "./bspwm_workspaces.sh"
@@ -11,7 +14,8 @@ path = "./cur_wksp_main"
 path = "./timedate"
 reload = 1
 
-# Used for formatting lemonbar
+# Formatting
+
 [left]
 path = "echo '%{l}'"
 static = true
@@ -24,6 +28,30 @@ static = true
 path = "echo '%{r}'"
 static = true
 
-[sep]
-path = "echo '{sep}'"
+[bgcolor_base]
+path = "echo '%{B-}'"
+static = true
+
+[bgcolor_x_darkgrey]
+path = "echo '%{B#928374}'"
+static = true
+
+[bgcolor_x_cyan]
+path = "echo '%{B#8ec07c}'"
+static = true
+
+[fgcolor_base]
+path = "echo '%{F-}'"
+static = true
+
+[color_reverse]
+path = "echo '%{R}'"
+static = true
+
+[font_normal]
+path = "echo '%{T1}'"
+static = true
+
+[font_bold]
+path = "echo '%{T2}'"
 static = true
