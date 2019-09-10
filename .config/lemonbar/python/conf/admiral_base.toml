@@ -1,0 +1,16 @@
+[admiral]
+items = ["clock", "sep", "cur_wksp_main", "sep", "workspaces"]
+
+[workspaces]
+path = "./bspwm_workspaces.sh"
+
+[cur_wksp_main]
+path = "./cur_wksp_main"
+
+[clock]
+path = "./timedate"
+reload = 1
+
+[sep]
+path = "echo '{sep}'"
+static = true

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo -e -n " $(date '+%-H:%M') \ue0b0"
