@@ -1,14 +1,21 @@
 [admiral]
-items = ["clock", "sep", "cur_wksp_main", "sep", "workspaces"]
+items = ["clock", "sep",
+	 "cur_wksp", "sep",
+	 "xtitle", "sep",
+	 "workspaces", "sep"]
+
 
 [workspaces]
-path = "./bspwm_workspaces.sh"
+path = "/home/sujit/.config/lemonbar/python/scripts/bspwm_workspaces"
 
-[cur_wksp_main]
-path = "./cur_wksp_main"
+[cur_wksp]
+path = "/home/sujit/.config/lemonbar/python/scripts/cur_wksp"
+
+[xtitle]
+path = "/home/sujit/.config/lemonbar/python/scripts/xtitle"
 
 [clock]
-path = "./timedate"
+path = "/home/sujit/.config/lemonbar/python/scripts/timedate"
 reload = 1
 
 [sep]
