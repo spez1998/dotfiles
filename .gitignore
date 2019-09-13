@@ -64,3 +64,5 @@ lemonbar-xft/
 plsignore
 quickfix/
 xtitle/
+.config/qutebrowser/
+.pki/
