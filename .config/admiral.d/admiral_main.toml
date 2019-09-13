@@ -1,6 +1,6 @@
 [admiral]
 items = ["left",
-	"color_reverse", "bgcolor_x_cyan", "clock", "bgcolor_base", "fgcolor_base",
+	"color_reverse", "bgcolor_x_cyan", "clock", "fg_color_base", "reverse", "sep",
 	"color_reverse", "font_bold", "cur_wksp_main", "font_normal",
 	"bg_color_darkgrey", "workspaces", "bgcolor_base", "fgcolor_base"]
 
@@ -54,4 +54,8 @@ static = true
 
 [font_bold]
 path = "echo '%{T2}'"
+static = true
+
+[sep]
+path = "echo $SHELL"
 static = true
